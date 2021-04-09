@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #F19E8E;
+    width: 100%;
+    height: 100px;
+}
+
+.menu {
+    background: #fcf2f0 !important;
+    color: #F19E8E !important;
+}
+
+.menu-principal {
+    
+    margin-top: 30px; 
+}
+
+li > a {
+    color: rgb(255, 255, 255) !important;
+    font-weight: 600;
+}
+
+li > a:hover {
+    color: #98756F !important;
+}
+
+/*  MAIN - LINHA 1 */
+
+.foto {
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+    max-width: 100%;
+}
+
+h1 {
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    margin-left: 5%;
+    font-size: 35px;
+}
+
+.primeiro-texto {
+    margin-bottom: 60px;
+    text-align: justify;
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+hr {
+    margin-top: 0;
+    margin-bottom: 60px;
+	border: 2px solid; 
+	border-color: #98756F;
+	background: #98756F;
+}
+
+/* MAIN - LINHA 2 */
+
+.momentos {
+    margin-bottom: 40px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.fotos {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.textinhos {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.box {
+    padding: 20px;
+}
+
+/* FOOTER */
+
+.rodape {
+    background:#F19E8E;
+}
+
+.icones {
+    margin-top: 5px;
+    font-size: 40px;
+}
+
+.icon {
+    color: #fcf2f0 !important;
+}
+
+/* MEDIA QUERIES */
+
+
+
+/*  Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+
+    /*  MAIN - LINHA 1 */
+
+    .foto {
+        display: block;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        max-width: 80%;
+    }
+    
+    h1 {
+        display: block;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-weight: bold;
+    }
+    
+    p {
+        text-align: justify;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    
+    hr {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    /*  MAIN - LINHA 2 */
+
+    .momentos {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
