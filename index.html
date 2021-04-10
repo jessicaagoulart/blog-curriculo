@@ -16,16 +16,16 @@
 </head>
 
 <body>
+    
     <header class="container header">
         <div class="row menu-fixar">
             <nav class="col-12 menu-principal">
 
                 <h1 class="sobre-mim-menu-mobile">SOBRE MIM</h1>
-                <input type="checkbox" id="menuToggle">
-                <label for="menuToggle" class="menu-icon">
+                <a class="btn btn-primary icone" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                    aria-expanded="false" aria-controls="collapseExample">
                     <i class="fas fa-bars"></i>
-                    <i class="fas fa-times"></i>
-                </label>
+                </a>
 
                 <ul class="nav nav-pills nav-justified menu-index">
                     <li class="nav-item">
@@ -44,6 +44,28 @@
                         <a class="nav-link" href="portfolio.html">PORTFÓLIO</a>
                     </li>
                 </ul>
+
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body" >
+                        <ul class="nav flex-column menu-index-mobile card card-body">
+                            <li class="nav-item">
+                                <a class="nav-link active menu" aria-current="page" href="index.html">INÍCIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="educacao.html">EDUCAÇÃO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="profissional.html">TRABALHO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="soft_skills.html">SOFT SKILLS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html">PORTFÓLIO</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
             </nav>
         </div>

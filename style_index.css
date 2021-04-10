@@ -10,6 +10,7 @@ body {
     background-color: #F19E8E;
     width: 100%;
     height: 100px;
+    z-index: 3;
 }
 
 .menu {
@@ -33,13 +34,23 @@ li > a:hover {
 
 /* MENU MOBILE */
 
-    #menuToggle {
+
+    .sobre-mim-menu-mobile {
         display: none;
     }
 
-    .menu-icon {
+    .menu-index-mobile {
         display: none;
     }
+
+    .icone {
+        display: none;
+    }
+
+    .card-body {
+        display: none;
+    }
+
 
 /*  MAIN - LINHA 1 */
 
@@ -194,14 +205,62 @@ h3 {
     .menu-index {
         display: none;
     }
+
+    .menu-index-mobile {
+        display: flex;
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        right: 0px;
+        top:100%;
+        background:rgba(241, 158, 142, 0.8);
+        
+
+    }
+
+    .menu-index-mobile > li > a:hover {
+
+        color: #98756F !important;
+    }
+
+    .menu {
+        background: rgba(196, 121, 106, 0.67)!important;
+        
+        color: #fcf2f0 !important;
+    }
     
     .text h1 {
         display: none;
     }
 
     .sobre-mim-menu-mobile {
+        display: block;
         color: #fcf2f0;
     }
+
+    .icone {
+        display: flex;
+        position: absolute;
+        right: 10px;
+        background: none !important;
+        border: none !important;
+    }
+
+    .card-body {
+        display: flex;
+        margin-top: 2.8%;
+        padding: 0;
+        width: 100%;
+        border: none !important;
+    }
+
+    .card {
+        border: 0px;
+        border-radius: 0px 5px 5px;
+    }
+
+
+
 
     /*  MAIN - LINHA 1 */
 
@@ -248,12 +307,88 @@ h3 {
 /* Extra small devices (portrait phones, less than 576px) */
 @media screen and (max-width: 575.98px) {
     
+    /* MENU MOBILE */
+
+    .header {
+        position: fixed;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+    }
+
+    .header nav {
+        display: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    .menu-index {
+        display: none;
+    }
+
+    .menu-index-mobile {
+        display: flex;
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        right: 0px;
+        top:100%;
+        background:rgba(241, 158, 142, 0.8);
+        
+
+    }
+
+    .menu-index-mobile > li > a:hover {
+
+        color: #98756F !important;
+    }
+
+    .menu {
+        background: rgba(196, 121, 106, 0.67)!important;
+        
+        color: #fcf2f0 !important;
+    }
+    
+    .text h1 {
+        display: none;
+    }
+
+    .sobre-mim-menu-mobile {
+        display: block;
+        color: #fcf2f0;
+    }
+
+    .icone {
+        display: flex;
+        position: absolute;
+        right: 10px;
+        background: none !important;
+        border: none !important;
+    }
+
+    .card-body {
+        display: flex;
+        margin-top: 2.8%;
+        padding: 0;
+        width: 100%;
+        border: none !important;
+    }
+
+    .card {
+        border: 0px;
+        border-radius: 0px 5px 5px;
+    }
+
+
+
+
     /*  MAIN - LINHA 1 */
 
     .foto {
         display: block;
         margin: 0 auto;
-        margin-top: 40px;
+        margin-top: 140px;
         margin-bottom: 40px;
         max-width: 80%;
     }
@@ -272,7 +407,7 @@ h3 {
     
     p {
         text-align: justify;
-        margin-top: 20px;
+        margin-top: 0px;
         margin-bottom: 0px;
     }
     
