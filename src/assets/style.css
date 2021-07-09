@@ -291,6 +291,25 @@ body {
 	margin: 5px;
 }
 
+.jogos {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.jogos h3 {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 1.4rem;
+	color: #0d1b2a;
+	margin-bottom: 10px;
+}
+
+.jogo {
+	margin: 20px;
+}
+
 @media screen and (max-width: 675px) {
 	#header {
 		flex-direction: column;
